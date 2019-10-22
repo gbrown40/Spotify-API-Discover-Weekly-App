@@ -6,4 +6,4 @@ DS3000_50_saved_songs.csv is a file containing the song data about a user's save
 
 regional-global-daily-2019-10-19.csv is a file containing the songs that the recommended songs are pulled from.
 
-DS_3000_spotifydataset_extraction.ipynb is a jupyter notebook file containging the code which scrapes the user's saved songs from the Spotify API.
+spotifyAPI_data_extraction.py is a python file containging the code which scrapes the user's saved songs from the Spotify API.
