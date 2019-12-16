@@ -1,9 +1,3 @@
 # Spotify-API-Discover-Weekly-App
 
-An app using the Spotify API and Spotipy library to scrape data about a user's saved songs. These songs are then analyzed to find patterns in a user's music taste, which are used to recommend the user new songs they would enjoy.
-
-DS3000_50_saved_songs.csv is a file containing the song data about a user's saved songs.
-
-regional-global-daily-2019-10-19.csv is a file containing the songs that the recommended songs are pulled from.
-
-spotifyAPI_data_extraction.py is a python file containging the code which scrapes the user's saved songs from the Spotify API.
+In this project, we used a dataset containing a certain user's liked songs and disliked songs from playlists on their Spotify account (User songs 3.csv). From there, we analyzed key song features of this dataset in order to train our different machine learning models to recognize songs this user would like, and dislike. After we trained those models, we found the model that yielded the highest accuracy (Support Vectore Machine at 92%) and then used it on another dataset of newly-released music (New Music Friday.csv) in order to recommend the user a subset of those new songs to listen to.
